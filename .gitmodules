@@ -1,0 +1,3 @@
+[submodule "SolsticeSDK"]
+	path = SolsticeSDK
+	url = https://DanSCB@github.com/DanSCB/SolsticeSDK.git

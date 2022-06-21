@@ -7,20 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC77BEAE286235AB00D1111A /* Solstice in Frameworks */ = {isa = PBXBuildFile; productRef = AC77BEAD286235AB00D1111A /* Solstice */; };
 		ACF467E52862190900B8A2E8 /* SolDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF467E42862190900B8A2E8 /* SolDemoApp.swift */; };
 		ACF467E72862190900B8A2E8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF467E62862190900B8A2E8 /* ContentView.swift */; };
 		ACF467E92862190D00B8A2E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACF467E82862190D00B8A2E8 /* Assets.xcassets */; };
 		ACF467EC2862190D00B8A2E8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACF467EB2862190D00B8A2E8 /* Preview Assets.xcassets */; };
-		ACF467F528621A0500B8A2E8 /* Solstice in Frameworks */ = {isa = PBXBuildFile; productRef = ACF467F428621A0500B8A2E8 /* Solstice */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AC77BEAC2862353800D1111A /* SolsticeSDK */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = SolsticeSDK; path = ../SolsticeSDK; sourceTree = "<group>"; };
 		ACF467E12862190900B8A2E8 /* SolDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SolDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACF467E42862190900B8A2E8 /* SolDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolDemoApp.swift; sourceTree = "<group>"; };
 		ACF467E62862190900B8A2E8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		ACF467E82862190D00B8A2E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACF467EB2862190D00B8A2E8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		ACF467F2286219D300B8A2E8 /* Solstice */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Solstice; path = ../../Solstice; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,16 +28,25 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACF467F528621A0500B8A2E8 /* Solstice in Frameworks */,
+				AC77BEAE286235AB00D1111A /* Solstice in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AC77BEAB2862353800D1111A /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				AC77BEAC2862353800D1111A /* SolsticeSDK */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
 		ACF467D82862190900B8A2E8 = {
 			isa = PBXGroup;
 			children = (
+				AC77BEAB2862353800D1111A /* Packages */,
 				ACF467E32862190900B8A2E8 /* SolDemo */,
 				ACF467E22862190900B8A2E8 /* Products */,
 				ACF467F328621A0500B8A2E8 /* Frameworks */,
@@ -55,7 +64,6 @@
 		ACF467E32862190900B8A2E8 /* SolDemo */ = {
 			isa = PBXGroup;
 			children = (
-				ACF467F2286219D300B8A2E8 /* Solstice */,
 				ACF467E42862190900B8A2E8 /* SolDemoApp.swift */,
 				ACF467E62862190900B8A2E8 /* ContentView.swift */,
 				ACF467E82862190D00B8A2E8 /* Assets.xcassets */,
@@ -96,7 +104,7 @@
 			);
 			name = SolDemo;
 			packageProductDependencies = (
-				ACF467F428621A0500B8A2E8 /* Solstice */,
+				AC77BEAD286235AB00D1111A /* Solstice */,
 			);
 			productName = SolDemo;
 			productReference = ACF467E12862190900B8A2E8 /* SolDemo.app */;
@@ -356,7 +364,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		ACF467F428621A0500B8A2E8 /* Solstice */ = {
+		AC77BEAD286235AB00D1111A /* Solstice */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Solstice;
 		};
